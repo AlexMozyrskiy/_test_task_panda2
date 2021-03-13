@@ -1,0 +1,52 @@
+.range{
+    background-color: red;
+}
+
+.handle{
+    border: 2px solid red;
+}
+
+#target {
+    height: 200px;
+    width: 500px;
+    background-color: bisque;
+    margin-top: 20px;
+}
+
+.buttons{
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #000;
+    z-index: 1;
+}
+
+#button1 {
+    background-color: #4072FE;
+    color: #fff;
+}
+
+.buttons h3 {
+    position: absolute;
+    left: 20px;
+    top: -32px;
+    z-index: 2;
+    background-color: #fff;
+    padding: 5px;
+}
+
+#slider {
+    margin-top: 20px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+#text {
+    padding: 5px;
+}
+
+.flex-wrapper {
+    display: flex;
+    margin: 20px;
+}
+
